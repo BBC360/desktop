@@ -1,6 +1,6 @@
 set( APPLICATION_NAME       "BBC360 Cloud" )
 set( APPLICATION_SHORTNAME  "BBC360 Cloud" )
-set( APPLICATION_EXECUTABLE "BBC360 Cloud" )
+set( APPLICATION_EXECUTABLE "nextcloud" )
 set( APPLICATION_DOMAIN     "cloud.bbc360.com" )
 set( APPLICATION_VENDOR     "BBC360" )
 set( APPLICATION_UPDATE_URL "https://cloud.bbc360.com/client/" CACHE STRING "URL for updater" )
@@ -9,12 +9,12 @@ set( APPLICATION_ICON_NAME  "Nextcloud" )
 set( APPLICATION_ICON_SET   "SVG" )
 set( APPLICATION_SERVER_URL "" CACHE STRING "URL for the server to use. If entered, the UI field will be pre-filled with it" )
 set( APPLICATION_SERVER_URL_ENFORCE ON ) # If set and APPLICATION_SERVER_URL is defined, the server can only connect to the pre-defined URL
-set( APPLICATION_REV_DOMAIN "com.bbc360cloud.desktopclient" )
-set( APPLICATION_VIRTUALFILE_SUFFIX "bbc360cloud" CACHE STRING "Virtual file suffix (not including the .)")
+set( APPLICATION_REV_DOMAIN "com.nextcloud.desktopclient" )
+set( APPLICATION_VIRTUALFILE_SUFFIX "nextcloud" CACHE STRING "Virtual file suffix (not including the .)")
 set( APPLICATION_OCSP_STAPLING_ENABLED OFF )
 set( APPLICATION_FORBID_BAD_SSL OFF )
 
-set( LINUX_PACKAGE_SHORTNAME "bbc360cloud" )
+set( LINUX_PACKAGE_SHORTNAME "nextcloud" )
 set( LINUX_APPLICATION_ID "${APPLICATION_REV_DOMAIN}.${LINUX_PACKAGE_SHORTNAME}")
 
 set( THEME_CLASS            "NextcloudTheme" )
