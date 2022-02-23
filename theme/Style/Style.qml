@@ -2,7 +2,7 @@ pragma Singleton
 
 import QtQuick 2.15
 
-import com.nextcloud.desktopclient 1.0
+import com.bbc360cloud.desktopclient 1.0
 
 QtObject {
     readonly property int pixelSize: fontMetrics.font.pixelSize
